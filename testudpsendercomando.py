@@ -3,7 +3,7 @@ import sys
 
 UDP_IP = "192.168.1.46"
 UDP_PORT = 2424
-MESSAGE = sys.argv[0].encode()
+MESSAGE = sys.argv[1].encode()
 
 print("UDP target IP: %s" % UDP_IP)
 print("UDP target port: %s" % UDP_PORT)
